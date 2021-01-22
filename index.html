@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 主体部分 -->
+    <div class="body">
+        <div class="container">
+            <div class="box">
+                <div class="img"><img src="images/西湖十景-双峰插云.png" alt="帮取快递"></div>
+                <span>帮取快递</span>
+            </div>
+            <div class="box">
+                <div class="img"><img src="images/土星.png" alt="帮打水"></div>
+                <span>帮打水</span>
+            </div>
+            <div class="box">
+                <div class="img"><img src="images/地球.png" alt="帮打饭"></div>
+                <span>帮打饭</span>
+            </div>
+            <div class="box">
+                <div class="img"><img src="images/木星.png" alt="跑腿"></div>
+                <span>跑腿</span>
+            </div>
+        </div>
+    </div>
+    <!-- 头部 -->
+    <div class="footer">
+        <h1>LOGO</h1>
+        <p>便捷生活、高效工作、诚心诚意服务；所帮之事，一呼百应。</p>
+    </div>
+
+    <script type="text/javascript">
+        // 点击事件
+        var arr = document.getElementsByClassName('box');
+        arr[0].onclick = function(){
+            window.open('html/qkd.html','_self')
+        }
+    </script>
+</body>
+</html>

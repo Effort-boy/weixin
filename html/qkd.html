@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>帮取快递</title>
+    <link type="text/css" rel="stylesheet" href="../css/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="../css/qkd.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <h1>帮取快递</h1>
+    </div>
+    <!-- 主体部分 -->
+    <div class="container">
+        <form action="" method="post">
+            <!-- 时间 -->
+            <div class="group">
+                <div class="box">
+                    <span>帮送时间:</span>
+                </div>
+                <div class="box">
+                    <input type="date">
+                    <input type="time">
+                </div>
+            </div>
+            <!-- 地址 -->
+            <div class="group">
+                <div class="box">
+                    <span>所在位置:</span>
+                </div>
+                <div class="box">
+                    <input type="text" placeholder="快递所在站点位置。">
+                </div>
+            </div>
+            <!-- 取货码 -->
+            <div class="group">
+                <div class="box">
+                    <span>取货码:</span>
+                </div>
+                <div class="box">
+                    <input type="number" placeholder="输入取货码。">
+                </div>
+            </div>
+            <!-- 送达地址 -->
+            <div class="group">
+                <div class="box">
+                    <span>送达地址:</span>
+                </div>
+                <div class="box">
+                    <input type="text" placeholder="请输入宿舍号。">
+                </div>
+            </div>
+            <!-- 联系方式 -->
+            <div class="group">
+                <div class="box">
+                    <span>联系方式:</span>
+                </div>
+                <div class="box">
+                    <input type="text" placeholder="请输入手机号。" maxlength="11" pattern="^0{0,1}(13[0-9]|15[7-9]|153|156|18[7-9])[0-9]{8}$" title="请输入正确的手机号！">
+                </div>
+            </div>
+            <!-- 价格 -->
+            <div class="group">
+                <div class="box">
+                    <span>价格:</span>
+                </div>
+                <div class="box value">
+                    <span><i class="iconfont icon-YUAN"></i>&nbsp;2.00</span>
+                </div>
+            </div>
+            <!-- 协议 -->
+            <div class="group xieyi">
+                <input type="checkbox" checked >&nbsp;&nbsp;<span>我已同意相关协议。</span>
+            </div>
+            <!-- 订购 -->
+            <div class="group">
+                <div class="box dgou">
+                    <input type="submit" value="订购">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

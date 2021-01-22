@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #efeeee;
+}
+.header{
+    width: 200px;
+    margin: 10px auto 30px;
+    text-align: center;
+}
+.header h1{
+    color: #5a80d5;
+    font-weight: 400;
+    border: 2px dashed #5a80d5;
+    border-radius: 5px;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 80px;
+}
+.group .box span{
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 7px 7px 20px black;
+}
+.group .box input{
+    width: 150px;
+    list-style: none;
+    outline-style: none;
+    border-style: none;
+    padding: 0 5px;
+    background-color:#efeeee ;
+    border-radius: 5px;
+    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2),
+    -18px -18px 30px rgba(255, 255, 255, 1);
+    transition: all 0.2s ease-out;
+}
+.group .box input:hover{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 rgba(255, 255, 255, 0.8),
+inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+inset -18px -18px 30px rgba(255, 255, 255, 1);
+}
+.group:nth-child(1) .box input{
+    height: 30px;
+}
+.group:nth-child(2) .box input,.group:nth-child(3) .box input,.group:nth-child(4) .box input,.group:nth-child(5) .box input{
+    height: 35px;
+}
+.group:nth-child(6) .box span{
+    color: #4585e3;
+    text-shadow: 7px 7px 20px #081a74;
+}
+/* 价格 */
+.group .value span{
+    font-size: xx-large;
+}
+.xieyi span{
+    font-weight: lighter;
+    text-shadow: 7px 7px 20px black;
+}
+/* 订购 */
+.group .dgou input{
+    color: white;
+    width: 150px;
+    height: 35px;
+    background-color:#4585e3;
+    box-shadow: 18px 18px 30px rgba(19, 47, 110, 0.2),
+    -18px -18px 30px rgba(255, 255, 255, 1);
+}
+.group .dgou input:hover{
+    font-size: 18px;
+    color:#2d67bd;
+}
